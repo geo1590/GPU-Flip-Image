@@ -25,16 +25,24 @@ The code will read in an image file. It will then use the nppiMirror_8u_C3R() li
 ## Setup and Run the Code
 This is how to run the code in your environment. Only the source codes and makefiles are stored in this github repository. The input JPG image files are stored in a downloadable URL link. Optionally, you can provide your own JPG image input files.
 ```bash
-mkdir myFlip
+git clone https://github.com/geo1590/GPU-Flip-Image.git
+mv GPU-Flip-Image myFlip
+
 mkdir data
 mkdir out_data
-cd myFlip
+
+cd data
+wget https://od.lk/d/NDdfMTAxMDg2NTE1Xw/jpg_images.zip
+unzip jpg_images.zip
+
 mkdir include
 cd include
 curl -O https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
 curl -O https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h
+
 cd ..
 git clone https://github.com/NVIDIA/cuda-samples.git
+
 apt-get update
 apt-get install -y libfreeimage-dev libopencv-dev python3-opencv
 ```
