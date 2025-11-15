@@ -20,7 +20,7 @@ The code will read in an image file. It will then use the nppiMirror_8u_C3R() li
 - Development Environment
 	- I used Google Colab to develop this code. In Colab, I used the A100 GPU device. The Colab is normally used for Python development. But, if you just use it's CLI Terminal, then you can use it like a Linux Ubuntu environment to install packages, edit files, and run CUDA NPP code. You can of course use your own development environment.
 - Input Image Files
-	-	I found the imput JPG input files from this URL: https://susanqq.github.io/UTKFace/. I only used about 95 of these images.
+	-	I found the imput JPG input files from this URL: https://susanqq.github.io/UTKFace/. I only used about 95 of these images. For running the code, do not download the files from that link. The below step by step procedures will provide the URL link to use.
 
 ## Setup and Run the Code
 This is how to run the code in your environment. Only the source codes and makefiles are stored in this github repository. The input JPG image files are stored in a downloadable URL link. Optionally, you can provide your own JPG image input files.
