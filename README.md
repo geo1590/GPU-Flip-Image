@@ -22,10 +22,10 @@ The code will read in an image file. It will then use the nppiMirror_8u_C3R() li
 - Input Image Files
 	-	I found the imput JPG input files from this URL: https://susanqq.github.io/UTKFace/. I only used about 95 of these images. For running the code, do not download the files from that link. The below step by step procedures will provide the URL link to use.
 - Artifacts
- - In this github repository, the /artifacts/ contains some of the artifacts for this code.
- - This is one of the input JPG image files: /artifacts/20_1_2_20170112003857668.jpg
- - This is the resulting horizontally flipped output JPG image file: /artifacts/20_1_2_20170112003857668-flipped.jpg
- - This is the output after running the code: /artifacts/output.txt
+	- In this github repository, the /artifacts/ contains some of the artifacts for this code.
+ 	- This is one of the input JPG image files: /artifacts/20_1_2_20170112003857668.jpg
+ 	- This is the resulting horizontally flipped output JPG image file: /artifacts/20_1_2_20170112003857668-flipped.jpg
+ 	- This is the output after running the code: /artifacts/output.txt
    
 
 ## Setup and Run the Code
