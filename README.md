@@ -35,6 +35,7 @@ cd data
 wget https://od.lk/d/NDdfMTAxMDg2NTE1Xw/jpg_images.zip
 unzip jpg_images.zip
 
+cd ..
 mkdir include
 cd include
 curl -O https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
