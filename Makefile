@@ -32,7 +32,7 @@ run: $(TARGET)
 clean:
 	rm -rf $(BIN_DIR)/*
 	rm -rf $(DATA_OUT_DIR)/*
-	rm output.txt > /dev/null 2>&1
+	rm -f output.txt > /dev/null 2>&1
 
 # Installation rule (not much to install, but here for completeness)
 install:
