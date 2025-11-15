@@ -27,6 +27,7 @@ This is how to run the code in your environment. Only the source codes and makef
 ```bash
 git clone https://github.com/geo1590/GPU-Flip-Image.git
 mv GPU-Flip-Image myFlip
+cd myFlip
 
 mkdir data
 mkdir out_data
