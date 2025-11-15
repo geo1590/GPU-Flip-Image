@@ -47,13 +47,6 @@ git clone https://github.com/NVIDIA/cuda-samples.git
 apt-get update
 apt-get install -y libfreeimage-dev libopencv-dev python3-opencv
 ```
-Download the input JPG image files used for this code. But, you can always supply your own JPG image files.
-Download Link
-```bash
-cd data
-tar -xvzf <tar_file>
-rm <tar_file>
-```
 Run the code.
 ```bash
 cd myFlip
