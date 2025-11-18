@@ -13,15 +13,15 @@ The code will read in an image file. It will then use the nppiMirror_8u_C3R() li
  - Input Data
  The input data of the image is represented as a flat array with the size of width * height * 3-bytes. The 3-bytes are for the RGB color.
  
- - Input/Output Files
+ - Input/Output Files<br>
  The /data directory will contain the JPG image file used for input. The /out_data directory will contain the flipped JPG image files for the output.
- - Lessons Learned
+ - Lessons Learned<br>
 	- The initial code was using the older NPP method which I had to convert to use the latest method to call these library functions.
-- Development Environment
+- Development Environment<br>
 	- I used Google Colab to develop this code. In Colab, I used the A100 GPU device. The Colab is normally used for Python development. But, if you just use it's CLI Terminal, then you can use it like a Linux Ubuntu environment to install packages, edit files, and run CUDA NPP code. You can of course use your own development environment.
-- Input Image Files
+- Input Image Files<br>
 	-	I found the imput JPG input files from this URL: https://susanqq.github.io/UTKFace/. I only used about 95 of these images. For running the code, do not download the files from that link. The below step by step procedures will provide the URL link to use.
-- Artifacts
+- Artifacts<br>
 	- In this github repository, the /artifacts/ contains some of the artifacts for this code.
  	- This is one of the input JPG image files: /artifacts/20_1_2_20170112003857668.jpg
  	- This is the resulting horizontally flipped output JPG image file: /artifacts/20_1_2_20170112003857668-flipped.jpg
