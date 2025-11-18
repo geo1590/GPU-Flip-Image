@@ -10,7 +10,7 @@ The purpose of this repository is to demonstrate how GPU programming using CUDA 
 
 The code will read in an image file. It will then use the nppiMirror_8u_C3R() library function. The 8u means 8-bit unsigned per pixel. The C3R means 3 channels for RGB color and R for ROI input (region of interest) which operates on an image rectangle. The nppiMirror means it will perform a mirror/flip operation.
 
- - Input Data
+ - Input Data<br>
  The input data of the image is represented as a flat array with the size of width * height * 3-bytes. The 3-bytes are for the RGB color.
  
  - Input/Output Files<br>
