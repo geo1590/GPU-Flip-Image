@@ -1,7 +1,7 @@
 # GPU-Flip-Image
-Project: GPU - Horizontally Flip an Image
-Author: George Barrinuevo
-Date: 11/15/2025
+Project: GPU - Horizontally Flip an Image<br>
+Author: George Barrinuevo<br>
+Date: 11/15/2025<br>
 
 ## Purpose
 The purpose of this repository is to demonstrate how GPU programming using CUDA NPP libraries can be used on JPG images. This code will flip a directory of images and write out the resulting flipped image. This code was used as a graded lab for an online course.
